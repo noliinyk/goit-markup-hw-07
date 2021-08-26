@@ -1,0 +1,39 @@
+body {
+    background-color: $primary-white-color;
+    color: $primary-text-color;
+    font-family: $main-font-family;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+     }
+     
+  li{
+    list-style: none;
+  }
+  

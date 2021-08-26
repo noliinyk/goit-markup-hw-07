@@ -1,0 +1,37 @@
+
+ .clients__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    color: $title-text-color;
+    margin-top: 0;
+    margin-bottom: 50px;
+    min-width: 264px;
+  }
+
+  .clients__name {
+    display: flex;
+    justify-content: center;
+  }
+  .clients__list:not(:last-child) {
+    margin-right: 30px;
+  }
+  .clients__link {
+    padding: 16px 32px;
+    display: flex;
+    width: 170px;
+    height: 92px;
+    fill:$social-links-fill;
+    border: 1px solid $social-links-fill;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
+  }
+  

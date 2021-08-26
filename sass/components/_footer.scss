@@ -1,0 +1,68 @@
+.footer__container,
+.socials,
+.footer__forms {
+    display: flex;
+  }
+
+.footer {
+    line-height: 1.71;
+    color: $primary-white-color;
+    background-color: $hero-background-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+
+.logo {
+    display: block;
+    margin-bottom: 20px;
+
+     
+  &__nav--white {
+    color: $primary-white-color;
+  }
+  }
+ 
+
+
+  .footer__address {
+    font-style: normal;
+    margin-bottom: 9px;
+  }
+
+  .footer__mail,
+  .footer__address {
+    display: block;
+    margin-bottom: 9px;
+
+    color: $footer-contact-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+
+  .footer__list {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+ 
+  
+ 
+  
+  .footer__mail:hover,
+  .footer__phone:hover,
+  .footer__mail:focus,
+  .foote__phone:focus {
+    color: $accent-color;
+  }
+  
+  
+  
+  .link {
+    text-decoration: none;
+  }
+  
+
+
+
+ 
+  

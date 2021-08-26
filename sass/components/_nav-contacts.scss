@@ -1,0 +1,37 @@
+.nav-contacts{
+    display: flex;
+    margin-left: auto;
+    
+&__mail,
+&__phone {
+    display: flex;
+    align-items: center;
+    color: $primary-text-color;
+    fill: $primary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+   
+  }
+}
+
+  .link:hover,
+  .link:focus {
+    fill: $accent-color;
+    color:$accent-color;
+  }
+
+  .nav-contacts__list{
+    display: block;
+  
+   
+  &:last-child {
+      margin-left: 50px;
+      }
+    }
+  
+  .envelope-logo,
+  .smartphone-logo {
+    margin-right: 10px;
+  }
