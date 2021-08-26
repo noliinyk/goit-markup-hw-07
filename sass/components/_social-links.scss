@@ -1,19 +1,19 @@
 .social-links {
     display: flex;
     justify-content: center;
-  }
-  .social-links__list {
+  
+  &__list {
     margin-right: 0px;
     margin-top: 16px;
     margin-left: 0;
   
-    &:not(:last-child) {
-        margin-right: 10px;
-      }
+        &:not(:last-child) {
+            margin-right: 10px;
+          }
   }
   
   
-  .social-links__meta {
+  &__meta {
     display: flex;
     width: 44px;
     height: 44px;
@@ -31,5 +31,5 @@
       fill: $primary-white-color;
     }
   }
- 
+}
   

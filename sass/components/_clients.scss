@@ -1,5 +1,5 @@
-
- .clients__title {
+.clients{
+ &__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
@@ -10,14 +10,14 @@
     min-width: 264px;
   }
 
-  .clients__name {
+  &__name {
     display: flex;
     justify-content: center;
   }
-  .clients__list:not(:last-child) {
+  &__list:not(:last-child) {
     margin-right: 30px;
   }
-  .clients__link {
+  &__link {
     padding: 16px 32px;
     display: flex;
     width: 170px;
@@ -34,4 +34,5 @@
     border-color: $accent-color;
   }
   }
+}
   

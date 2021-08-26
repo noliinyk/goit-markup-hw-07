@@ -10,30 +10,19 @@
     background-color: $hero-background-color;
     padding-top: 60px;
     padding-bottom: 60px;
-  }
-  
 
-.footer__logo {
-    display: block;
-    margin-bottom: 20px;
-  }
-
-     
-  .logo__nav--white {
-    color: $primary-white-color;
-  }
-  
- 
-
-
-  .footer__address {
+    &__logo {
+      display: block;
+      margin-bottom: 20px;
+    }
+    
+    &__address {
     font-style: normal;
     margin-bottom: 9px;
   }
 
-  .footer__mail,
-  .footer__address,
-  .footer__phone {
+    &__mail,
+    &__phone {
     display: block;
     margin-bottom: 9px;
 
@@ -42,13 +31,14 @@
   }
 
 
-  .footer__list {
+    &__list {
     color: rgba(255, 255, 255, 0.6);
   }
-  
- 
-  
- 
+  }
+    
+  .logo__nav--white {
+    color: $primary-white-color;
+  }
   
   .footer__mail:hover,
   .footer__phone:hover,
@@ -56,9 +46,7 @@
   .foote__phone:focus {
     color: $accent-color;
   }
-  
-  
-  
+ 
   .link {
     text-decoration: none;
   }

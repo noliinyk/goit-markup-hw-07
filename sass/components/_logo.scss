@@ -8,18 +8,18 @@
     &:focus{
         color: $accent-color;
       }
-
+    &__accent,
+    &__nav {
+        font-family: $logo-font-family;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+      }
+    &__accent {
+        color:$accent-color;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
   }
 
   
-  .logo__accent,
-  .logo__nav {
-    font-family: $main-font-family;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-  }
-  .logo__accent {
-    color:$accent-color;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  

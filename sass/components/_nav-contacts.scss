@@ -1,6 +1,15 @@
 .nav-contacts{
     display: flex;
     margin-left: auto;
+
+    &__list{
+      display: block;
+    
+     
+      &:last-child {
+        margin-left: 50px;
+        }
+      }
     
 &__mail,
 &__phone {
@@ -22,14 +31,7 @@
     color:$accent-color;
   }
 
-  .nav-contacts__list{
-    display: block;
-  
-   
-  &:last-child {
-      margin-left: 50px;
-      }
-    }
+ 
   
   .envelope-logo,
   .smartphone-logo {
